@@ -1,0 +1,20 @@
+[200~Criar uma conta no GitHub
+• Criar um repositorio no GitHub
+• Apontar o projeto local para o GitHub
+Certificar que esta no diretorio do repositorio local
+• Executar o comando
+git remote add origin https://github.com/nome_usuario/repositorio.git
+11
+Para enviar alterações para o GitHub, executar o comando
+git push origin master
+Para visualizar alterações e commits realizados por outros no repositorio, deve ser sincronizado o repositório
+local com o remotor, puxando os novos commits para o repositório local.
+A sincronização do repositório local com o remoto é feita com o uso do comando
+git pull origin master
+Obtendo o projeto do GitHub
+• Criar um diretório chamado projetos_git e entrar nele.
+• Para obter o código do projeto do GitHub, executar o comando
+git clone https://github.com/nome_usuario/repositorio.git
+• Existe o diretorio oculto .git
+• Executar o comando
+git log~
